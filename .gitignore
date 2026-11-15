@@ -12,5 +12,5 @@ scripts/gen_postlist
 **/.python-version
 .venv
 
-**/.clj-kondo
+.clj-kondo
 **/.lsp
