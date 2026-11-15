@@ -1,2 +1,16 @@
 # built
 scripts/gen_postlist
+
+**/package-lock.json
+
+# from my globals
+**/.DS_Store
+
+**/*.egg-info
+**/__pycache__
+**/.ruff_cache
+**/.python-version
+.venv
+
+**/.clj-kondo
+**/.lsp
