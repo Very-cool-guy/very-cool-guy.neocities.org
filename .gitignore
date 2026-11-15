@@ -5,12 +5,6 @@ scripts/gen_postlist
 
 # from my globals
 **/.DS_Store
-
-**/*.egg-info
-**/__pycache__
-**/.ruff_cache
-**/.python-version
-.venv
-
+.DS_Store
 .clj-kondo
-**/.lsp
+.lsp
