@@ -6,6 +6,6 @@ cd ../actualsite
 scripts/gen_postlist
 git add .
 git commit -m "meow" &>/dev/null
-neocities push .
+echo scripts/cljs/node_modules/**/* | python -c "print('neocities push -e',' -e '.join(input().split(' ')),' .')" | zsh # will have to do until they merge my pr :(
 cd ../very-cool-guy.neocities.org
 echo "**/node_modules" >> .gitignore
