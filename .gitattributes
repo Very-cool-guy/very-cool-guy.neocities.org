@@ -1,2 +1,1 @@
-**/node_modules linguist-vendored
 **/*.mjs linguist-generated

@@ -6,3 +6,6 @@ scripts/gen_postlist
 .DS_Store
 .clj-kondo
 .lsp
+
+# dont move, automated!
+**/node_modules
