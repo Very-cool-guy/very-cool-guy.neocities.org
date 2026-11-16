@@ -1,4 +1,2 @@
-posts.html linguist-generated
-reviews.html linguist-generated
 **/node_modules linguist-vendored
 **/*.mjs linguist-generated

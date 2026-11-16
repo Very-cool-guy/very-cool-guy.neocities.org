@@ -1,6 +1,4 @@
-# built
 scripts/gen_postlist
-
 **/package-lock.json
 
 # from my globals

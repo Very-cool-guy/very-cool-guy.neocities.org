@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 cd $(git rev-parse --show-toplevel)
+rsync -a -r --delete --exclude .git --exclude scripts/gen_postlist . ../actualsite # crystal has to be built there to ensure correct __FILE__
+cd ../actualsite
 scripts/gen_postlist
 git add .
-git commit --amend --no-edit &>/dev/null
+git commit -m "meow" &>/dev/null
 neocities push .
+cd ../very-cool-guy.neocities.org
