@@ -1,4 +1,5 @@
 scripts/gen_postlist
+**/*.beam
 **/package-lock.json
 
 # from my globals
